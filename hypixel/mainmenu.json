@@ -1,0 +1,186 @@
+{
+    "images": {
+        "menu": {
+            "image": "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/background.png?raw=true",
+            "posX": 50,
+            "posY": 0,
+            "width": 220,
+            "height": 1080,
+            "alignment": "left"
+        },
+		 "title": {
+            "image": "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/title/title.png?raw=true",
+			"hoverImage": "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/title/title_hover.png?raw=true",
+            "posX": 85,
+            "posY": 60,
+            "width": 150,
+            "height": 80,
+            "alignment": "top_left"
+        },
+		"player": {
+			"image": "web:https://minotar.net/armor/body/#username#/100.png",
+			"posX": 73,
+            "posY": 105,
+            "width": 50,
+            "height": 100,
+            "alignment": "left_center"
+		}
+    },
+    
+    "buttons":{
+		"title": {
+			"texture": "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/transparent.png?raw=true",
+			"text": "",
+			"posX": 85,
+			"posY": 60,
+			"width": 150,
+			"height": 80,
+			"tooltip": "Hypixel time! But still no friends...",
+			"alignment": "top_left",
+			"action": {
+                "type": "connectToServer",
+                "ip": "play.hypixel.net"
+            }
+		},
+        "singleplayer": {
+            "texture": "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/button_background.png?raw=true",
+			"text": "menu.singleplayer",
+            "posX": 50,
+            "posY": -60,
+            "width": 220,
+            "height": 20,
+			"tooltip": "No people and no friends",
+			"alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+        "multiplayer": {
+            "texture": "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/button_background.png?raw=true",
+			"text": "menu.multiplayer",
+            "posX": 50,
+            "posY": -36,
+            "width": 220,
+            "height": 20,
+			"tooltip": "Many people and no friends",
+			"alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+        
+        "mods": {
+            "texture": "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/button_background.png?raw=true",
+			"text": "Mods",
+            "posX": 50,
+            "posY": -12,
+            "width": 220,
+            "height": 20,
+			"tooltip": "TooManyMods",
+			"alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        },
+            
+        "options": {
+            "texture": "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/button_background.png?raw=true",
+			"text": "menu.options",
+            "posX": 50,
+            "posY": 12,
+            "width": 220,
+            "height": 20,
+			"tooltip": "TooManyOptions",
+			"alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        "quit": {
+            "texture": "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/button_background.png?raw=true",
+			"text": "menu.quit",
+            "posX": 50,
+            "posY": 36,
+            "width": 220,
+            "height": 20,
+			"tooltip": "Ight imma head out",
+			"alignment": "left_center",
+            "action": {
+                "type": "quit"
+            }
+        },
+		"replay": {
+            "texture": "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/button_background.png?raw=true",
+			"text": "Replay viewer",
+            "posX": 50,
+            "posY": 60,
+            "width": 220,
+            "height": 20,
+			"tooltip": "God's view",
+			"alignment": "left_center",
+            "wrappedButton": 17890234
+        }
+    },
+    
+    "labels": {
+		"time": {
+            "text": "#time#",
+            "posX": 60,
+            "posY": -24,
+            "color": -1,
+            "alignment": "bottom_left"
+        },
+		"date": {
+            "text": "#date#",
+            "posX": 60,
+            "posY": -12,
+            "color": -1,
+            "alignment": "bottom_left"
+        },
+		"username": {
+			"text": "#username#",
+			"posX": 147,
+            "posY": 145,
+            "color": -1,
+            "alignment": "left_center"
+		},
+		"mods":{
+			"text": "Open mods folder",
+			"hoverText": "\u00A7nOpen mods folder",
+			"posX": 175,
+            "posY": -12,
+            "color": -1,
+            "alignment": "bottom_left",
+			"action": {
+				"type": "openFolder",
+				"folderName": "./mods"
+			}
+		},
+		"resourecacks": {
+			"text": "Open packs folder",
+			"hoverText": "\u00A7nOpen packs folder",
+			"posX": 170,
+            "posY": -24,
+            "color": -1,
+            "alignment": "bottom_left",
+			"action": {
+				"type": "openFolder",
+				"folderName": "./resourcepacks"
+			}
+		}
+    },
+    
+    "other": {
+        "panorama": {
+            "images" : "web:https://github.com/TomAintAround/hosts/blob/main/hypixel/panorama/panorama_%c.png?raw=true",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : false
+        }
+    }
+}
